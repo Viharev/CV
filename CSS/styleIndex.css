@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300;1,500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    min-height: 800px;
+    background-color: #222930;
+    
+}
+a:any-link{
+    color:#ffffff;
+    font-size: 14px;
+    font-style: italic;
+    text-decoration: none;
+    cursor: pointer;
+}
+.menu a:hover{
+    font-size: 15px;
+    text-shadow: 5px 5px 9px rgb(255, 255, 255);
+}
+a:visited{
+    color: #ffffff;
+}
+
+.header {
+    box-sizing: border-box;
+    box-shadow: 0px 16px 5px rgba(35, 95, 112, 0.35);
+    background-color: rgb(35, 95, 112);
+    height: 60px;
+    border-bottom: 1px solid #000;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+
+}
+
+.menu {
+    width: 90%;
+    
+
+}
+.logo{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: right;
+
+    align-items: center;
+
+
+
+}
+.menu li{
+    width: 100px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.body {
+    margin: 70px;
+    padding: 50px;
+    display: flex;
+    background-color: #3a3a3a;
+    border-radius: 15px;
+    box-shadow: 4px 12px 4px rgba(35, 95, 112, 0.35);
+    color: #ffffff;
+    text-shadow: 5px 5px 5px #000;
+
+
+}
+.sectionOne {
+    width: 30%;
+    margin-right: 15px;
+}
+.sectionOne img{
+    box-shadow:7px 15px 7px rgba(35, 95, 112, 0.35);
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+}
+.sectionTwo {
+    width: 70%;
+}
+.bodyTwo {
+    margin: 60px;
+    padding: 50px;
+    display: flex;
+    background-color: #3a3a3a;
+    border-radius: 15px;
+    box-shadow: 4px 12px 4px rgba(35, 95, 112, 0.35);
+    color: #ffffff;
+    text-shadow: 5px 5px 5px #000;
+
+}
+.sectionThree {
+    width: 70%;
+}
+.sectionFor {
+    padding: 15px;
+    width: 30%;
+}
+.sectionFor img{
+    width: 100%;
+    height: auto;
+    box-shadow:7px 15px 7px rgba(35, 95, 112, 0.35);
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+
+.footer {
+    height: 50px;
+    border-top: 1px solid #000;
+    background-color: rgb(35, 95, 112);
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    box-shadow: 0px -15px 7px rgba(35, 95, 112, 0.35);
+    color: #ffffff;
+}
+
+
+/* progress page */
+
+.sectionPresentation {
+    text-align: center;
+}
+.titlePresentation {
+    margin-bottom: 15px;
+}
+.textPresentation {
+}
+
+/* table */
+
+.sectionTable {
+    margin: 5px;
+}
+
+
+.containerTable {
+    margin: 70px;
+    border: 1px solid #3a3a3a;
+    background: #3a3a3a;
+    border-radius: 15px;
+    box-shadow: 4px 12px 4px rgba(35, 95, 112, 0.35);
+
+}
+
+table{
+    border: 1px solid #fff;
+    text-align: center;
+    width: 100%;
+    table-layout: fixed;
+    color: #fff;
+    border-spacing: 0;
+
+    
+}
+table td, table tr, table th{
+    border: 1px solid #fff;
+}
+
+/* войти в IT */
+
+.containerIT {
+    display: flex;
+}
+.sectionOneIt {
+    width: 30%;
+    margin-right: 15px;
+}
+.imgIt {
+    width: 100%;
+}
+.textSectionOneIt {
+    width: 70%;
+}
+
+/* Связаться со мной */
+.bodyForm {
+    margin-top: 100px;
+}
+.sectionForm {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: rgba(35, 95, 112, 0.178);
+    padding: 20px;
+    border-radius: 35px;
+    height: 610px;
+    box-shadow: 25px 25px 5px rgba(0, 0, 0, 0.493);
+    
+}
+.sectionForm input{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.sectionForm input[type="text"], .sectionForm input[type="email"]{
+padding: 20px;
+font-size: 25px;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+width: 300px;
+margin: 0 auto;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 20px;
+}
+.sectionForm textarea{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    width: 300px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.label{
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;   
+}
+.btn{
+    background-color: #000;
+    font-size: 25px;
+    color: #fff;
+    border:none;
+    padding: 15px;
+    width: 180px;
+    height: 100%;
+    margin:0 auto;
+    cursor: pointer;
+}
+.btn:hover{
+    opacity: 0.7;
+}
+
+.social {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.socSectionOne {
+    width: 30%;    
+}
+.socSectionTwo {
+    width: 30%;
+    display: flex;
+}
+.telegram {
+    width: 25%;
+    align-self: center;
+    margin: 5px;
+}
+.telegram:hover{
+    opacity: 0.7;
+}
+.whatsapp {
+    width: 25%;
+    align-self: center;
+    margin: 5px;
+}
+.whatsapp:hover{
+    opacity: 0.7;
+}
+.vkontakte {
+    width: 25%;
+    align-self: center;
+    margin: 5px;
+}
+.vkontakte:hover{
+    opacity: 0.7;
+}
+.discord {
+    width: 25%;
+    align-self: center;
+    margin: 5px;
+}
+.discord:hover{
+    opacity: 0.7;
+}
+.socSectionThree {
+    width: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
